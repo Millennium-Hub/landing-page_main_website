@@ -11,12 +11,17 @@
   --color-primary: #050733;
   --color-secondary: #f85a40;
 
- --black-gradient: linear-gradient(144.39deg,
+ --black-gradient: radial-gradient(144.39deg,
    #ffffff -278.56%,
    #6d6d6d -78.47%,
    #11101d 91.61%);
  --card-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
- }
+
+--welc-gradient: linear-gradient(144.39deg,
+  #5a5a5ec0 -278.56%,
+  #573a3aab -78.47%,
+  #1e1d2457 91.61%);
+}
 
 /* Smooth scroll behavior */
 :root {
@@ -284,7 +289,7 @@ section {
 .header {
   transition: all 0.5s;
   z-index: 997;
-  height: 90px;
+  height: 120px;
   background-color: var(--color-primary);
 }
 
@@ -293,12 +298,12 @@ section {
   top: 0;
   right: 0;
   left: 0;
-  height: 70px;
+  height: 100px;
   box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.1);
 }
 
 .header .logo img {
-  max-height: 40px;
+  max-height: 70px;
   margin-right: 6px;
 }
 
@@ -309,7 +314,25 @@ section {
   letter-spacing: 0.8px;
   color: #fff;
   font-family: var(--font-primary);
+
+  background: radial-gradient(64.18% 64.18% at 71.16% 35.69%,
+        #e9defa 0.89%,
+        #c98080 17.23%,
+        #c96868 42.04%,
+        #ffe0fa 55.12%,
+        #e7bbbb 71.54%,
+        #e45b5b 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -moz-text-fill-color: transparent;
 }
+
+button:focus {
+  outline: 1px dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+}
+
 
 .header .logo h1 span {
   color: #f96f59;
@@ -1866,6 +1889,12 @@ section {
   position: relative;
   background: var(--color-primary);
   padding: 60px 0 0 0;
+  height: 500px;
+}
+
+.welcome{
+  background: var(--welc-gradient);
+  border-radius: 26px;
 }
 
 @media (min-width: 1365px) {
@@ -2663,4 +2692,8 @@ section {
 }
 .welcome-title{
  color: #e45b5b;
+}
+
+.logo-img{
+  height: 200px;
 }
