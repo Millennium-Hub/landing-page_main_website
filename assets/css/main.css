@@ -237,7 +237,7 @@ section {
 # Header
 --------------------------------------------------------------*/
 .topbar {
-  background: #00796b;
+  background: #000000;
   height: 40px;
   font-size: 14px;
   transition: all 0.5s;
@@ -445,7 +445,7 @@ section {
     font-size: 15px;
     text-transform: none;
     font-weight: 600;
-    color: #006a5d;
+    color: #37006a;
   }
 
   .navbar .dropdown ul a i {
@@ -516,7 +516,7 @@ section {
     inset: 0;
     padding: 50px 0 10px 0;
     margin: 0;
-    background: rgba(0, 131, 116, 0.9);
+    background: rgba(38, 0, 82, 0.9);
     overflow-y: auto;
     transition: 0.3s;
     z-index: 9998;
@@ -562,7 +562,7 @@ section {
   .navbar .getstarted:hover,
   .navbar .getstarted:focus:hover {
     color: #fff;
-    background: rgba(0, 131, 116, 0.8);
+    background: rgba(42, 0, 90, 0.8);
   }
 
   .navbar .dropdown ul,
@@ -572,8 +572,8 @@ section {
     padding: 10px 0;
     margin: 10px 20px;
     transition: all 0.5s ease-in-out;
-    background-color: #007466;
-    border: 1px solid #006459;
+    background-color: #110050;
+    border: 1px solid #2d014b;
   }
 
   .navbar .dropdown>.dropdown-active,
@@ -615,7 +615,7 @@ section {
     content: "";
     position: fixed;
     inset: 0;
-    background: rgba(0, 106, 93, 0.8);
+    background: rgba(55, 0, 106, 0.8);
     z-index: 9996;
   }
 }
@@ -677,7 +677,7 @@ section {
 .about .play-btn {
   width: 94px;
   height: 94px;
-  background: radial-gradient(var(--color-primary) 50%, rgba(0, 131, 116, 0.4) 52%);
+  background: radial-gradient(var(--color-primary) 50%, rgba(42, 1, 95, 0.4) 52%);
   border-radius: 50%;
   display: block;
   position: absolute;
@@ -698,7 +698,7 @@ section {
   animation-timing-function: steps;
   opacity: 1;
   border-radius: 50%;
-  border: 5px solid rgba(0, 131, 116, 0.7);
+  border: 5px solid rgba(38, 0, 82, 0.7);
   top: -15%;
   left: -15%;
   background: rgba(198, 16, 0, 0);
@@ -1013,7 +1013,7 @@ section {
 }
 
 .services .service-item:hover .icon:before {
-  background: #00b6a1;
+  background: #250069;
 }
 
 .services .service-item:hover h3 {
@@ -1067,7 +1067,7 @@ section {
 
 .testimonials .testimonial-item .quote-icon-left,
 .testimonials .testimonial-item .quote-icon-right {
-  color: #009d8b;
+  color: #44009d;
   font-size: 26px;
   line-height: 0;
 }
@@ -1310,7 +1310,7 @@ section {
 }
 
 .portfolio-details .portfolio-info .btn-visit:hover {
-  background: #009d8b;
+  background: #2e004d;
 }
 
 .portfolio-details .portfolio-description h2 {
@@ -1354,7 +1354,7 @@ section {
 
 .portfolio-details .portfolio-description .testimonial-item .quote-icon-left,
 .portfolio-details .portfolio-description .testimonial-item .quote-icon-right {
-  color: #009d8b;
+  color: #320061;
   font-size: 26px;
   line-height: 0;
 }
@@ -1497,7 +1497,7 @@ section {
   height: 86px;
   width: 86px;
   border-radius: 50%;
-  background: #87c1bb;
+  background: #795b9b;
   transition: all 0.3s ease-out 0s;
   transform: translateZ(-1px);
 }
@@ -1594,137 +1594,6 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Frequently Asked Questions Section
---------------------------------------------------------------*/
-.faq .content h3 {
-  font-weight: 400;
-  font-size: 34px;
-}
-
-.faq .content h4 {
-  font-size: 20px;
-  font-weight: 700;
-  margin-top: 5px;
-}
-
-.faq .content p {
-  font-size: 15px;
-  color: #6c757d;
-}
-
-.faq .accordion-item {
-  border: 0;
-  margin-bottom: 20px;
-  box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.06);
-  border-radius: 10px;
-}
-
-.faq .accordion-item:last-child {
-  margin-bottom: 0;
-}
-
-.faq .accordion-collapse {
-  border: 0;
-}
-
-.faq .accordion-button {
-  padding: 20px 50px 20px 20px;
-  font-weight: 600;
-  border: 0;
-  font-size: 18px;
-  line-height: 24px;
-  color: var(--color-default);
-  text-align: left;
-  background: #fff;
-  box-shadow: none;
-  border-radius: 10px;
-}
-
-.faq .accordion-button .num {
-  padding-right: 10px;
-  font-size: 20px;
-  line-height: 0;
-  color: var(--color-primary);
-}
-
-.faq .accordion-button:not(.collapsed) {
-  color: var(--color-primary);
-  border-bottom: 0;
-  box-shadow: none;
-}
-
-.faq .accordion-button:after {
-  position: absolute;
-  right: 20px;
-  top: 20px;
-}
-
-.faq .accordion-body {
-  padding: 0 40px 30px 45px;
-  border: 0;
-  border-radius: 10px;
-  background: #fff;
-  box-shadow: none;
-}
-
-/*--------------------------------------------------------------
-# Recent Blog Posts Section
---------------------------------------------------------------*/
-.recent-posts article {
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
-  background-color: #fff;
-  padding: 30px;
-  height: 100%;
-  border-radius: 10px;
-  overflow: hidden;
-}
-
-.recent-posts .post-img {
-  max-height: 240px;
-  margin: -30px -30px 15px -30px;
-  overflow: hidden;
-}
-
-.recent-posts .post-category {
-  font-size: 16px;
-  color: #6f6f6f;
-  margin-bottom: 10px;
-}
-
-.recent-posts .title {
-  font-size: 22px;
-  font-weight: 700;
-  padding: 0;
-  margin: 0 0 20px 0;
-}
-
-.recent-posts .title a {
-  color: var(--color-default);
-  transition: 0.3s;
-}
-
-.recent-posts .title a:hover {
-  color: var(--color-primary);
-}
-
-.recent-posts .post-author-img {
-  width: 50px;
-  border-radius: 50%;
-  margin-right: 15px;
-}
-
-.recent-posts .post-author {
-  font-weight: 600;
-  margin-bottom: 5px;
-}
-
-.recent-posts .post-date {
-  font-size: 14px;
-  color: #3c3c3c;
-  margin-bottom: 0;
-}
-
-/*--------------------------------------------------------------
 # Contact Section
 --------------------------------------------------------------*/
 .contact .info-container {
@@ -1737,11 +1606,18 @@ section {
 
 .contact .info-item {
   width: 100%;
-  background-color: #009282;
+  background-color: #440092;
   margin-bottom: 20px;
   padding: 20px;
   border-radius: 10px;
   color: #fff;
+}
+
+.contact .info-item a{
+  color: #fff;
+}
+.contact .info-item a:hover{
+  color: #b885f3;
 }
 
 .contact .info-item:last-child {
@@ -1754,7 +1630,7 @@ section {
   float: left;
   width: 44px;
   height: 44px;
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0.582);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1774,6 +1650,7 @@ section {
   padding: 0;
   margin-bottom: 0;
   font-size: 14px;
+  color: #fff;
 }
 
 .contact .info-item:hover i {
@@ -1810,7 +1687,7 @@ section {
 .contact .php-email-form .sent-message {
   display: none;
   color: #fff;
-  background: #059652;
+  background: #550596;
   text-align: center;
   padding: 15px;
   font-weight: 600;
@@ -1830,7 +1707,7 @@ section {
   width: 24px;
   height: 24px;
   margin: 0 10px -6px 0;
-  border: 3px solid #059652;
+  border: 3px solid #3d0596;
   border-top-color: #fff;
   animation: animate-loading 1s linear infinite;
 }
@@ -1868,7 +1745,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: rgba(0, 131, 116, 0.8);
+  background: rgba(219, 199, 253, 0.8)
 }
 
 @keyframes animate-loading {
@@ -1986,7 +1863,7 @@ section {
   padding: 60px 30px;
   position: relative;
   overflow: hidden;
-  background: #008d7d;
+  background: #49008d;
   box-shadow: 0 0 29px 0 rgba(0, 0, 0, 0.08);
   transition: all 0.3s ease-in-out;
   border-radius: 8px;
@@ -2018,7 +1895,7 @@ section {
 }
 
 .hero .icon-box:hover {
-  background: #009786;
+  background: #4e0097;
 }
 
 .hero .icon-box:hover .title a,
@@ -2696,4 +2573,59 @@ section {
 
 .logo-img{
   height: 200px;
+}
+
+.swiper {
+  width: 100%;
+  height: 500px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  background-size: contain;
+  box-sizing: content-box;
+  /* To fix the padding issue */
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.slide {
+  width: 100%;
+  height: 100%;
+}
+.slide-text{
+  color: #000;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 9999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 10% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 100%;
+}
+
+.btn-close {
+  color: #aaa;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-close:hover,
+.btn-close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
 }
