@@ -315,15 +315,6 @@ section {
   color: #fff;
   font-family: var(--font-primary);
 
-  background: radial-gradient(64.18% 64.18% at 71.16% 35.69%,
-        #e9defa 0.89%,
-        #c98080 17.23%,
-        #c96868 42.04%,
-        #ffe0fa 55.12%,
-        #e7bbbb 71.54%,
-        #e45b5b 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
     background-clip: text;
     -moz-text-fill-color: transparent;
 }
