@@ -1758,6 +1758,9 @@ section {
   background: var(--color-primary);
   padding: 60px 0 0 0;
   height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .welcome{
