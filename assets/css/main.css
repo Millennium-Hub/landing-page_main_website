@@ -2576,14 +2576,11 @@ section {
 }
 
 .swiper {
-  width: 100%;
-  height: 770px;
   text-align: center;
   position: relative;
   overflow: hidden;
   background-size: contain;
-  box-sizing: content-box;
-  /* To fix the padding issue */
+  box-sizing: border-box;
   background-repeat: no-repeat;
   background-position: center;
 }

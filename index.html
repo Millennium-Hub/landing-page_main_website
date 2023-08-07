@@ -56,7 +56,7 @@
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
       <a href="index.html" class="logo d-flex align-items-center">
         <img src="assets/img/imglogo.png" class="img-responsive img-logo" alt="">
-        <h1>MILLENNIUM HUB <br />TECHNOLOGY</h1>
+        <h1>M-HUB <br />TECHNOLOGY</h1>
       </a>
       <nav id="navbar" class="navbar">
         <ul>
@@ -64,8 +64,8 @@
           <li><a href="#about">About Us</a></li>
           <li><a href="#services">Our Services</a></li>
           <li><a href="#portfolio">Our Products</a></li>
-          <li><a href="#team">Our Team</a></li>
-          <li><a href="pges/acad.html">M-HUB Academy</a></li>
+          <li><a href="pages/team.html">Our Team</a></li>
+          <li><a href="pages/acad.html">M-HUB Academy</a></li>
           <li><a href="#contact">Contact Us</a></li>
         </ul>
       </nav><!-- .navbar -->
@@ -83,7 +83,7 @@
       <div class="row gy-5" data-aos="fade-in">
         <div
           class="welcome col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center text-center text-lg-start">
-          <h2>Welcome to <span class="welcome-title">Millennium Hub Technology</span></h2>
+          <h2>Welcome to <span class="welcome-title">M-HUB Technology</span></h2>
           <p><strong>IT Solutions that transforms your business</strong></p>
         </div>
       </div>
@@ -100,7 +100,7 @@
 
         <div class="section-header">
           <h2>About Us</h2>
-          <p>Millennium Hub Technology is a dynamic software development company founded in 2022 that provides
+          <p>M-HUB Technology is a dynamic software development company founded in 2022 that provides
             innovative IT
             solutions to businesses in Africa and beyond.</p>
         </div>
@@ -119,6 +119,12 @@
                   <div class="swiper-slide">
                     <img src="assets/img/grp1.jpg" class="img-fluid rounded-4 slide" alt="Image 4">
                   </div>
+                  <div class="swiper-button-prev"></div>
+                  <div class="swiper-button-next"></div>
+                  
+                  <div class="swiper-pagination"></div>
+                  
+                  <div class="swiper-scrollbar"></div>
                 </div>
               </div>
             </div>
@@ -131,7 +137,7 @@
           <div class="col-lg-6">
             <div class="content ps-0 ps-lg-5">
               <p class="fst-italic">
-                At Millennium Hub Technology, we are passionate about technology and dedicated to helping our clients
+                At M-HUB Technology, we are passionate about technology and dedicated to helping our clients
                 succeed in a constantly evolving digital world.
               </p>
               <h4>Our Core Values</h4>
@@ -170,8 +176,8 @@
       <div class="container" data-aos="fade-up">
 
         <div class="section-header">
-          <h2>Our Services</h2>
-          At Millennium Hub Technology, we are committed to delivering high-quality IT services that meet the unique
+          <a href="pages/services.html"> <h2>Our Services</h2></a>
+          At M-HUB Technology, we are committed to delivering high-quality IT services that meet the unique
           needs of our
           clients. Our team of professionals has extensive experience in software development and IT services, and is
           always
@@ -392,7 +398,7 @@
       <div class="row gy-4">
         <div class="col-lg-5 col-md-12 footer-info">
           <a href="index.html" class="logo d-flex align-items-center">
-            <span>Millennium Hub Technology</span>
+            <span>M-HUB Technology</span>
           </a>
           <p>IT Solutions that transforms your business</p>
           <div class="social-links d-flex mt-4">
@@ -465,7 +471,7 @@
   <script src="assets/js/main.js"></script>
   <script src="assets/js/custom.js"></script>
   <script src="assets/js/contact.js"></script>
-  <script>
+<script>
     var swiper = new Swiper('.swiper', {
       loop: true,
       pagination: {
@@ -478,19 +484,24 @@
 
       effect: 'fade',
       autoplay: {
-        delay: 3000, // Adjust the delay (in milliseconds) between slides
+        delay: 4000, 
       },
       navigation: {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
       },
 
-      // And if we need scrollbar
       scrollbar: {
         el: '.swiper-scrollbar',
       },
     });
-  </script>
+    $(document).ready(function () {
+      $("#myModal").modal('show');
+      $('#close').click(() => {
+        location.reload();
+        })
+        });
+        </script>
 </body>
 
 </html>
