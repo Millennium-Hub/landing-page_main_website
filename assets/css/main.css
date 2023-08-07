@@ -1766,6 +1766,8 @@ section {
 .welcome{
   background: var(--welc-gradient);
   border-radius: 26px;
+  text-align: center;
+
 }
 
 @media (min-width: 1365px) {
@@ -2583,6 +2585,11 @@ section {
   box-sizing: border-box;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.port{
+  width: 100%;
+  height: 550px;
 }
 
 .slide {
