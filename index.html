@@ -40,7 +40,7 @@
 		<div class="container d-flex justify-content-center justify-content-md-between">
 			<div class="contact-info d-flex align-items-center">
 				<i class="bi bi-envelope d-flex align-items-center"><a
-					href="mailto:millenniumhubtech@gmail.com">millenniumhubtech@gmail.com</a></i>
+					href="mailto:info@m-hubtechnology.com">info@m-hubtechnology.com</a></i>
 					<i class="bi bi-phone d-flex align-items-center ms-4"><span>:<a href="tel:+233553684514"> +233553684514</a></span></i>
 				</div>
 				<div class="social-links d-none d-md-flex align-items-center">
@@ -371,7 +371,7 @@
 							<i class="bi bi-envelope flex-shrink-0"></i>
 							<div>
 								<h4>Email:</h4>
-								<p class="text-break"><a href="mailto:millenniumhubtech@gmail.com">millenniumhubtech@gmail.com</a></p>
+								<p class="text-break"><a href="mailto:info@m-hubtechnology.com">info@m-hubtechnology.com</a></p>
 							</div>
 						</div><!-- End Info Item -->
 						
@@ -395,30 +395,32 @@
 						
 					</div>
 					
-					<div class="col-lg-8">
-						<form action="/assets/php/contact.php" method="post" role="form" class="php-email-form">
-							<div class="row">
-								<div class="col-md-6 form-group">
+					<div class="col-lg-8 col-md-12">
+						<div class="form">
+							<form role="form" class="php-email-form" id="contact" name="contact" action="./contact_me.php" method="POST">
+								<div class="form-group">
 									<input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
 								</div>
-								<div class="col-md-6 form-group mt-3 mt-md-0">
+								<div class="form-group mt-3">
 									<input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
 								</div>
-							</div>
-							<div class="form-group mt-3">
-								<input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
-							</div>
-							<div class="form-group mt-3">
-								<textarea class="form-control" name="message" rows="7" placeholder="Message" required></textarea>
-							</div>
-							<div class="my-3">
-								<div class="loading">Loading</div>
-								<div class="error-message"></div>
-								<div class="sent-message">Your message has been sent. Thank you!</div>
-							</div>
-							<div class="text-center"><button type="submit">Send Message</button></div>
-						</form>
-					</div><!-- End Contact Form -->
+					
+								<div class="form-group mt-3">
+									<textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+								</div>
+								<div class="my-3">
+									<div class="loading">Loading</div>
+									<div class="error-message"></div>
+									<div class="sent-message">Your message has been sent. Thank you!</div>
+								</div>
+								<div class="text-center">
+									<button type="submit" class="submit" type="submit">
+										Send Message
+									</button>
+								</div>
+							</form>
+						</div>
+					</div>
 					
 				</div>
 				
@@ -477,7 +479,7 @@
 					Ghana <br><br>
 					<strong>Phone:</strong> <a href="tel:+233270227755">+233270227755</a> / <a
 					href="tel:+233553684514">+233553684514</a><br>
-					<strong>Email:</strong> <a href="mailto:millenniumhubtech@gmail.com">millenniumhubtech@gmail.com </a><br>
+					<strong>Email:</strong> <a href="mailto:info@m-hubtechnology.com">info@m-hubtechnology.com </a><br>
 				</p>
 				
 			</div>
@@ -487,7 +489,7 @@
 	
 	<div class="container mt-4">
 		<div class="copyright">
-			&copy; Copyright <strong><span>MillenniumHubTech<span></strong>. All Rights Reserved
+			&copy; Copyright <strong><span>M-HubTechnology<span></strong>. All Rights Reserved
 			</div>
 		</div>
 		
