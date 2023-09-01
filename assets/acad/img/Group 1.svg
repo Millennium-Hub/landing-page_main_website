@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="312" height="191" viewBox="0 0 312 191">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #050733;
+      }
+
+      .cls-2, .cls-3, .cls-4, .cls-7 {
+        fill: none;
+      }
+
+      .cls-2 {
+        stroke: red;
+      }
+
+      .cls-3 {
+        stroke: #22811b;
+      }
+
+      .cls-4 {
+        stroke: #a39e18;
+      }
+
+      .cls-5 {
+        fill: #fff;
+      }
+
+      .cls-6 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="Group_1" data-name="Group 1" transform="translate(-1386 -246)">
+    <rect id="Rectangle_1" data-name="Rectangle 1" class="cls-1" width="312" height="191" transform="translate(1386 246)"/>
+    <g id="Rectangle_2" data-name="Rectangle 2" class="cls-2" transform="translate(1465.34 266.547) rotate(45)">
+      <rect class="cls-6" width="107" height="105"/>
+      <rect class="cls-7" x="0.5" y="0.5" width="106" height="104"/>
+    </g>
+    <g id="Rectangle_3" data-name="Rectangle 3" class="cls-3" transform="translate(1617.246 266.547) rotate(45)">
+      <rect class="cls-6" width="107" height="105"/>
+      <rect class="cls-7" x="0.5" y="0.5" width="106" height="104"/>
+    </g>
+    <g id="Rectangle_4" data-name="Rectangle 4" class="cls-4" transform="translate(1540.293 266.547) rotate(45)">
+      <rect class="cls-6" width="107" height="105"/>
+      <rect class="cls-7" x="0.5" y="0.5" width="106" height="104"/>
+    </g>
+    <path id="Icon_material-router" data-name="Icon material-router" class="cls-5" d="M24.886,7.937l.948-.948a8.3,8.3,0,0,0-11.852,0l.948.948a7.412,7.412,0,0,1,4.978-2.015A7.412,7.412,0,0,1,24.886,7.937Zm-1.067.948a5.439,5.439,0,0,0-7.823,0l.948.948a4.3,4.3,0,0,1,5.926,0Zm-.356,7.467h-2.37V11.611h-2.37v4.741H6.87a2.377,2.377,0,0,0-2.37,2.37v4.741a2.377,2.377,0,0,0,2.37,2.37H23.464a2.377,2.377,0,0,0,2.37-2.37V18.723A2.377,2.377,0,0,0,23.464,16.352ZM10.426,22.279H8.056v-2.37h2.37Zm4.148,0H12.2v-2.37h2.37Zm4.148,0h-2.37v-2.37h2.37Z" transform="translate(1564.8 321.333)"/>
+    <path id="Icon_ionic-ios-settings" data-name="Icon ionic-ios-settings" class="cls-5" d="M24.274,15.277a2.774,2.774,0,0,1,1.779-2.588,10.994,10.994,0,0,0-1.33-3.2,2.811,2.811,0,0,1-1.128.241,2.767,2.767,0,0,1-2.531-3.9,10.961,10.961,0,0,0-3.2-1.33,2.771,2.771,0,0,1-5.175,0,10.994,10.994,0,0,0-3.2,1.33,2.767,2.767,0,0,1-2.531,3.9,2.719,2.719,0,0,1-1.128-.241A11.237,11.237,0,0,0,4.5,12.695a2.773,2.773,0,0,1,.006,5.175,10.994,10.994,0,0,0,1.33,3.2A2.769,2.769,0,0,1,9.49,24.729a11.058,11.058,0,0,0,3.2,1.33,2.766,2.766,0,0,1,5.164,0,10.994,10.994,0,0,0,3.2-1.33,2.771,2.771,0,0,1,3.654-3.654,11.058,11.058,0,0,0,1.33-3.2A2.787,2.787,0,0,1,24.274,15.277Zm-8.947,4.485a4.49,4.49,0,1,1,4.49-4.49A4.489,4.489,0,0,1,15.327,19.762Z" transform="translate(1525.723 364.72)"/>
+    <path id="Icon_material-smartphone" data-name="Icon material-smartphone" class="cls-5" d="M22.032,1.512,9.922,1.5A2.429,2.429,0,0,0,7.5,3.922v21.8a2.429,2.429,0,0,0,2.422,2.422h12.11a2.429,2.429,0,0,0,2.422-2.422V3.922a2.419,2.419,0,0,0-2.422-2.41Zm0,21.786H9.922V6.344h12.11Z" transform="translate(1525.023 290.679)"/>
+    <path id="Icon_material-computer" data-name="Icon material-computer" class="cls-5" d="M20.522,20.365a2.049,2.049,0,0,0,2.042-2.052l.01-10.261A2.058,2.058,0,0,0,20.522,6H4.1A2.058,2.058,0,0,0,2.052,8.052V18.313A2.058,2.058,0,0,0,4.1,20.365H0v2.052H24.626V20.365ZM4.1,8.052H20.522V18.313H4.1Z" transform="translate(1492 327.291)"/>
+  </g>
+</svg>
