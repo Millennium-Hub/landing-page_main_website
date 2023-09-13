@@ -50,7 +50,7 @@
   });
 
   function php_email_form_submit(thisForm, action, formData) {
-    console.log(action);
+    // console.log(action);
     fetch(action, {
       method: 'post',
       body: formData,
@@ -64,6 +64,7 @@
       }
     })
     .then(data => {
+      console.log(data)
       thisForm.querySelector('.loading').classList.remove('d-block');
       if (data.trim() == 'OK') {
         thisForm.querySelector('.sent-message').classList.add('d-block');
